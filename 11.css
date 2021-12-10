@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+    font-family: 'Yusei Magic', sans-serif;
+    /* ここにGoogle Fontsのfont-family */
+}
+p.gothic {
+    font-family: YuGothic, "ヒラギノ角ゴ ProN W3", メイリオ, sans-serif;
+}
+p.mincho {
+    font-family: YuMincho, "ヒラギノ明朝 ProN", HGS明朝E, serif;
+}
+.fontSize{
+    font-size: 16px;
+}
+.px{
+    font-size: 20px;
+}
+.em{
+    font-size: 2em;
+}
+.normal{
+    font-weight: normal;
+}
+.bold{
+    font-weight: bold;
+}
+p.leht{
+    text-align: left;
+}
+p.center{
+    text-align: center;
+}
+p.right{
+    text-align: right;
+}
