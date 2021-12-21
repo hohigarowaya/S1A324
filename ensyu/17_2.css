@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body{
+    height: 100vh;
+    margin: 0;
+    background: url(img/bg_dot.png) #9f9f9f
+    no-repeat
+}

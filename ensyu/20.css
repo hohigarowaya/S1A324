@@ -3,31 +3,41 @@
   box-sizing: border-box;
 }
 h1 {
-  background-color: whitesmoke;
+  background-color: rgb(255, 6, 6);
   margin: 0;
 }
 section {
   width: 100%;
   padding: 10px;
-  background: #fcc;
+  background: rgb(225, 127, 255);
 }
 /* positionを使った指定 */
 .first img {
   /*ここから*/
-
+  position: relative;
+  top: 40px;
+  left: 100px;
   /*ここまで*/
 }
 section.second {
   /*ここから*/
-
+position: relative;
   /*ここまで*/
   margin-bottom: 200px;
 }
 /*ここから*/
 /* positionを使った指定 */
-.second img {}
+.second img {
+  position: absolute;
+  top:40px;
+  left:100px;
+}
 
 /* positionを使った指定 */
-.pagetop {}
+.pagetop {
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+}
 
 /*ここまで*/

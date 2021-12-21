@@ -1,0 +1,10 @@
+* {
+    font-family: 'Train One', cursive;
+}
+span{
+    /* display: block;  */
+    background-color:rgb(255, 0, 200);
+    color:#fff;
+    width: 500px;
+    height: 500px;
+}

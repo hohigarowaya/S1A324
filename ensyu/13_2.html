@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transitioを使ったアニメーション</title>
+    <style type="text/css">
+        div {
+            width: 100px;
+            height: 100px;
+            padding: 1em;
+            margin: 2em 2em 4em;
+            background: #ad4444;
+            color: #fff;
+            font-size: 14px;
+        }
+        .sample1{animation: zigzag 2s ease 0s infinite;
+        }
+        @keyframes zigzag {
+        0%{transform: translate(0,0);}
+        50%{transform: translate(50px,50px);}
+        100%{transform: translate(100px,0px);}
+        }
+        .sample2{animation:scale-and-color 4s ease 0s infinite alternate;}
+        @keyframes scale-and-color{
+        0% {background: #ad4444;transform: scale(1);}
+        50% {background: #3946ad;transform: scale(1.5);}
+        100% {background: #4dad48;transform: scale(1);}
+        }
+        img{
+            width: 100px;
+            margin-right: 2em;
+        }
+        .sample3{animation: loading 1s linear 0s infinite; }
+        @keyframes loading{
+            0% {transform: rotate(0deg)}
+            30%{transform: rotate(180deg);}
+            100%{transform: rotate(360deg);}
+        }
+        .sample4 {animation:heart 0.8s ease  0s infinite normal;}
+        @keyframes heart{
+            0%{transform: scale(20);}
+            8%{transform:scale(0)}
+            15%{transform: scale(20);}
+            25%{transform: scale(0);}
+            47%{transform: scale(20);}
+            100%{transform: scale(0);}
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>キーフレームアニメーション</h1>
+    <p>サンプル</p>
+    <div class="sample1">ジグザグに動く</div>
+    <p>サンプル２</p>
+    <div class="sample2">イージングも逆再生される</div>
+    <p>サンプル３，４</p>
+    <img class="sample3" src="img/loading.png" alt=""/>
+    <img class="sample4" src="img/heart.svg" alt="ハート"/>
+</body>
+
+</html>

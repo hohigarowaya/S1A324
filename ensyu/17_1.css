@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    background: url(img/expansion.gif) #be18ff
+left top repeat;
+    background-size: 3px 50px
+}
