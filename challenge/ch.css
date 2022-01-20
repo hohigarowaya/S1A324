@@ -1,1 +1,85 @@
- 
+* {
+    box-sizing: border-box;
+    font-family: メイリオ;
+    margin: 0;
+    animation: poyopoyo 1s ease-out infinite;
+    opacity: 1;
+}
+
+body {
+    background: #f8d8bf;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    background: #fff;
+    margin: 10px 15px;
+    padding: 10px;
+    position: relative;
+}
+
+header {
+    background-color: #f83;
+    color: #fff;
+    padding: 5px; 
+    position: absolute;  
+    top: 40px;
+    left: 0px;
+}
+
+
+section {
+    padding: 10px;
+    border: solid 1px rgb(216, 216, 216);
+}
+
+
+
+img {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* @keyframes poyopoyo {
+    0%, 40%, 60%, 80%,100% {
+        transform: scale(1.0);
+    }
+    50%, 70%{
+        transform: scale(0.8);
+    } 
+}  */
+h2 {
+    color: #f83;
+    padding-bottom: 5px;
+    
+}
+
+ul, ol {
+    padding-left:15px;
+}
+
+address {
+    text-align: center;
+}
+.flexContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.btnArea{
+    margin-top:40px;
+}
+p.btn{
+    margin: 0 auto 40px;
+    width: 250px;
+    text-align: center;
+}
+p.btn a{
+    display: block;
+    padding: 20px;
+    background: #f83;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 120%;
+}
