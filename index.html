@@ -12,24 +12,45 @@
 	<link href="portfolio/css/ress.css" media="all" rel="stylesheet" type="text/css" />
 	<link href="portfolio/css/style.css" media="all" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" href="portfolio/img/favicon.ico" />
-	<link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">	<link rel="stylesheet" href="index.css" />
-    <style type="text/css">
-	.sample3{animation: loading 10s linear infinite; }
-		@keyframes loading{
-		0% {transform: rotate(0deg)}
-		50%{transform: rotate(360deg);}
-		70%{transform: rotate(0deg);}
-		100%{transform: rotate(36000deg);}
-		0%{transform: translate(0,0);}
-        10%{transform: translate(0px,0px);}
-		20%{transform: translate(0px,0px);}
-        100%{transform: translate(0px,0px);}
-	}
+	<link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css" />
+	<style type="text/css">
+		.sample3 {
+			text-align: center;
+			width: 100px;
+		}
+
+		@keyframes sample3 {
+			0% {
+				transform: scale(2) rotate(45deg);
+				opacity: 0;
+			}
+
+			20% {
+				transform: scale(20) rotate(45deg);
+				opacity: 0.6;
+			}
+
+			40% {
+				transform: scale(30) rotate(45deg);
+				opacity: 0.4;
+			}
+
+			80% {
+				transform: scale(45) rotate(45deg);
+				opacity: 0.2;
+			}
+
+			100% {
+				transform: scale(50) rotate(45deg);
+				opacity: 0;
+			}
+		}
 	</style>
 </head>
 
 <body>
-	
+
 	<div class="wrapper">
 		<!-- header -->
 		<header class="header ">
@@ -51,17 +72,22 @@
 			<!-- main-visual -->
 			<div class="main-visual" id="about">
 				<div class="main-visual-inner">
-					<p class="main-visual-title">H1R0YA<br>H0GAWA</p>
-					<p class="main-visual-subtitle">PORT FOLIO</p>
 					<div class="main-visual-profile">
+						<p class="anpanman">
+							<img src="portfolio/img/anpanman.png" alt="">
+						</p>
+						<p class="logo-img"><img src="portfolio/img/logo2.png" alt=""></p>
+
 						<p class="sample3">
 							<img src="portfolio/img/profile.png" alt="自画像" />
 						</p>
 						<p class="main-visual-text">
 
 							<body text="#eee8aa"></body>
-							開国5378年の経験と<span class="marker">ノウハウ</span>があり、<br class="sp-only">他国ではマネのできない実績。<br>
-							ああああああああああああああああ<br class="sp-only">ガッチリ身につきます。<br>
+
+							開国5378年の経験とノウハウがあり、他国ではマネのできない実績。
+							ガッチリ身につきます。
+
 						</p>
 					</div>
 				</div>
@@ -93,9 +119,12 @@
 						<a class="works-item btn-open" href="ensyu/18.html">ENSYU 18</a>
 						<a class="works-item btn-open" href="ensyu/19_2.html">ENSYU 19</a>
 						<a class="works-item btn-open" href="ensyu/20.html">ENSYU 20</a>
-						<a class="works-item btn-open" href="ensyu/21_2.html">ENSYU 21</a>
-						<a class="works-item btn-open" href="ensyu/22_2.html">ENSYU 22</a>
-						<a class="works-item btn-open" href="ensyu/23_2.html">ENSYU 23</a>
+						<a class="works-item btn-open" href="ensyu/21_1.html">ENSYU 21_1</a>
+						<a class="works-item btn-open" href="ensyu/21_2.html">ENSYU 21_2</a>
+						<a class="works-item btn-open" href="ensyu/22_1.html">ENSYU 22_1</a>
+						<a class="works-item btn-open" href="ensyu/22_2.html">ENSYU 22_2</a>
+						<a class="works-item btn-open" href="ensyu/23_1.html">ENSYU 23_1</a>
+						<a class="works-item btn-open" href="ensyu/23_2.html">ENSYU 23_2</a>
 						<a class="works-item btn-box" href="challenge/ch.html">CHALLENGE1</a>
 						<a class="works-item btn-box" href="challenge2/ch2.html">CHALLENGE2</a>
 						<a class="works-item btn-gradation" href="lesson6/index.html">LESSON 6</a>

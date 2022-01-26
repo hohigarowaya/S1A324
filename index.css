@@ -1,10 +1,42 @@
 * {
     font-family: 'Train One', cursive;
+    background-color: rgba(243, 218, 218, 0.507);
 }
-span{
-    /* display: block;  */
-    background-color:rgb(255, 0, 200);
-    color:#fff;
-    width: 500px;
-    height: 500px;
+
+.logo-img {
+    max-width: 90%;
+    text-align: center;
+    position: relative;
+}
+.anpanman{
+    text-align: right;
+    max-width: 10%;
+    animation: poyopoyo 0.5s ease-out infinite;
+    opacity: 1;
+}
+
+.sample3 {
+    animation: poyopoyo 2s ease-out infinite;
+    opacity: 1;
+}
+
+@keyframes poyopoyo {
+    0%, 40%, 60%, 80%,100% {
+        transform: scale(1.0);
+    }
+    50%, 70%{
+        transform: scale(0.85);
+    }
+}
+.logo-img{
+    animation: poyopoyo 1.5s ease-out infinite;
+    opacity: 1;
+}
+
+.main-visual-text{
+    animation: poyopoyo 1s ease-out infinite;
+    opacity: 1;
+}
+works-list{
+    background-color: black ;
 }
