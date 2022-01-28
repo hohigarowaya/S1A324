@@ -1,101 +1,140 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- ページタイトル -->
-    <title>Cornetto</title>
-    <!-- ページのキーワード -->
-    <meta name="keywords" content="焼き立て,パン,こだわり,東京都" />
-    <!-- デスクリプション：ページの説明 -->
-    <meta name="description" content="焼きたてパン屋Cornettoのホームページです。"/>
-    <!-- ファビコンのリンク -->
-    <link rel="shortcut icon" href="img/favicon.ico" />
-    <!-- リセットCSSの読み込み -->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <!-- スタイルの読み込み -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-    （ヘッダー）
-    ロゴ画像
-    #Cornetto
-    </header>
-    
-    <!-- <main>の中身をマークアップ -->
-    <main>
-    <figure>
-    （メインイメージ）
-    [写真]
-    Cornettoのパン
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- ページタイトル -->
+  <title>Cornetto</title>
+  <!-- ページのキーワード -->
+  <meta name="keywords" content="焼き立て,パン,こだわり,東京都" />
+  <!-- デスクリプション：ページの説明 -->
+  <meta name="description" content="焼きたてパン屋Cornettoのホームページです。" />
+  <!-- ファビコンのリンク -->
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <!-- リセットCSSの読み込み -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <!-- スタイルの読み込み -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">
+      <img src="img/logo.svg" alt="Cornetto">
+    </h1>
+  </header>
+
+  <!-- <main>の中身をマークアップ -->
+  <main>
+    <figure class="top center slide" id="top">
+      <img src="img/top_01.jpg" alt="Cornettoのパン1">
+      <img src="img/top_02.jpg" alt="Cornettoのパン2">
+      <img src="img/top_03.jpg" alt="Cornettoのパン3">
+      <img src="img/top_01.jpg" alt="Cornettoのパン1">
     </figure>
-    
+
     <nav>
-    （ナビゲーション）
-    *about（リンク先：#about）
-    *menu（リンク先：#menu）
-    *photos（リンク先：#photos）
-    *access（リンク先：#access）
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#menu">menu</a></li>
+        <li><a href="#photos">photos</a></li>
+        <li><a href="#access">access</a></li>
+      </ul>
     </nav>
-    
-    <section>
-    （アバウト）
-    #about
-    Cornettoは東京都中区にあるパン屋です。
-    自家製酵母を使ったふわふわサクサクのクロワッサンが大人気。
-    その他ベーグル、ピザパンなど
-    数多くのパンをご用意しております。
-    ぜひご賞味ください。
+
+    <section id="about">
+      <h2>
+        <img src="img/ttl_about.svg" alt="about">
+      </h2>
+      <p>Cornettoは東京都中区にあるパン屋です。<br>
+        自家製酵母を使ったふわふわサクサクのクロワッ-サンが大人気。<br>
+        その他ベーグル、ピザパンなど<br>
+        数多くのパンをご用意しております。<br>
+        ぜひご賞味ください。</p>
     </section>
-    
-    <section>
-    （メニュー）
-    #menu
-    ・クロワッサン・・・ 140円
-    ・ベーグル・・・ 180円
-    ・ピザパン・・・ 180円
-    ・あんぱん・・・ 150円
-    ・食パン・・・ 450円
+
+    <section id="menu">
+      <h2>
+        <img src="img/ttl_menu.svg" alt="menu">
+      </h2>
+      <ul>
+        <li>・クロワッサン・・・ 140円</li>
+        <li>・ベーグル・・・ 180円</li>
+        <li>・ピザパン・・・ 180円</li>
+        <li>・あんぱん・・・ 150円</li>
+        <li>・食パン・・・ 450円</li>
+      </ul>
+
     </section>
-    
-    <section>
-    （フォト）
-    #photos
-    
-    （ゆとりある朝食画像）
-    休日の朝には、いつもよりじっくりと選んだパンを食卓に並べてゆとりある朝食をいただきたいものです。
-    
-    （季節のピザパン画像）
-    当店人気の”季節のピザパン”。夏の人気メニューはズッキーニとパプリカです。
-    
-    （ハードパンやベーグル画像）
-    調理パンだけでなく、ハードパンやベーグルも当店の看板商品です。
+
+    <section id="photos">
+      <h2>
+        <img src="img/ttl_photos.svg" alt="photos">
+      </h2>
+      <ul>
+        <li>
+          <figure>
+            <img src="img/photos_01.jpg" alt="ゆとりある朝食">
+            <figcaption>休日の朝には、いつもよりじっくりと選んだパンを食卓に並べてゆとりある朝食をいただきたいものです。</figcaption>
+          </figure>
+        </li>
+      </ul>
+      <li>
+        <figure>
+          <img src="img/photos_02.jpg" alt="季節のピザパン">
+          <figcaption>当店人気の”季節のピザパン”。夏の人気メニューはズッキーニとパプリカです。</figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <img src="img/photos_03.jpg" alt="ハードパンやベーグルパン">
+          <figcaption>調理パンだけでなく、ハードパンやベーグルも当店の看板商品です。</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <iframe src="https://www.youtube.com/embed/0xnHXUySSMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <figcaption>著作権フリー素材：パン・バター・美味しい・しずる・朝食・日常・生活</figcaption>
+        </figure>
+      </li>
     </section>
-    
-    <section>
-    （アクセス）
-    #access
-    Bakery shop Cornetto
-    〒123-4567
-    東京都中区舟入中町4-40
-    TEL・FAX 012-345-6789
-    
-    （店舗地図画像）
-    店舗周辺地図
+
+    <section id="access">
+      <h2>
+        <img src="img/ttl_access.svg" alt="access">
+      </h2>
+      <div>
+        <address>
+          <strong>Bakery shop Cornetto</strong><br>
+          〒123-4567<br>
+          東京都中区舟入中町4-40<br>
+          <strong>TEL・FAX 012-345-6789</strong>
+        </address>
+        <figure>
+          <!-- <img src="img/map.png" alt="店舗周辺地図"> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46667.540380671024!2d141.3782942996516!3d43.02625360824675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2bd6e30a2985%3A0x5398ede5382c8a3c!2z5a2m5qCh5rOV5Lq66Zu75a2Q6ZaL55m65a2m5ZySIOWMl-a1t-mBk-aDheWgseWwgumWgOWtpuagoQ!5e0!3m2!1sja!2sjp!4v1643331334171!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </figure>
+      </div>
     </section>
-    </main>
-    
-    <footer>
-    （フッター）
-    ロゴ画像
-    
-    （フッターナビゲーション）
-    *about（リンク先：#about）
-    *menu（リンク先：#menu）
-    *photos（リンク先：#photos）
-    *access（リンク先：#access）
-    
-    &copy;Copyright 2019 MdN Corporation.
-    </footer>
-  </body>
+  </main>
+<a href="#top"><img class="pagetop" src="img/pagetop.png" alt="ページトップに戻る" width="60" height="60" /></a>
+  <footer class="footer">
+    <div>
+      <p><img src="img/logo_w.svg" alt="Cornetto"></p>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#photos">photos</a></li>
+            <li><a href="access">access</a></li>
+          </ul>
+        </nav>
+        <p><small>&copy;Copyright 2019 MdNCorporation.</small></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
