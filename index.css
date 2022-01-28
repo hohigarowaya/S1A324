@@ -1,5 +1,5 @@
 * {
-    font-family: 'Train One', cursive;
+    /* font-family: 'Train One', cursive; */
     background-color: rgba(243, 218, 218, 0.507);
 }
 
@@ -39,4 +39,18 @@
 }
 works-list{
     background-color: black ;
+}
+span{
+    color: rgb(57, 125, 250);
+}
+.skill-item{
+    font-family: 'Mistral','メイリオ';
+}
+li{
+    margin: 5px;
+    list-style: square;
+}
+b{
+    font-size: 50px;
+    color: crimson;
 }
