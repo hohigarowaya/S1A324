@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF*8";
 *{
     box-sizing: border-box;
     font-size: 14px;
@@ -16,14 +16,14 @@ dl{
     margin: 0;
     font-size: 16px;
 }
-.formItem{
+.formltem{
     display: flex;
     margin-bottom: 2em;
     align-items: center;
 }
 dt{
     flex: 1 1 30px;
-    text-align: right;
+    text-align: left;
     margin-right: 1em;
     font-weight: bold;
     color: #00a;
@@ -33,7 +33,7 @@ dd{
     margin-left: 0;
 }
 input[type="text"],textarea{
-    border: 1px solid#999;
+    border: 1px solid #999;
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -57,11 +57,19 @@ input[type="submit"]{
     color: #fff;
     font-size: 14px;
 }
-@media screen and (max-width: 768px){.formItem{display: block;}
+@media screen and (max-width: 768px){
+.formltem{display: block;}
 dt{
     text-align: left;
     margin-bottom: 4px;
 }
 dd{margin-left: 0;}
-    .job{margin-right: 8em;}
+.job{margin-right: 8em;}
 }
+
+
+
+
+
+
+
